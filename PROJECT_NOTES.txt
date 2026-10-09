@@ -1,0 +1,11 @@
+COMP-584 PROJECT 2 NOTES
+Theme: Splatoon 3-inspired Splatnet Field Guide (unofficial fan-made page).
+
+ROW 1: Four individual weapon-class cards.
+ROW 2: Two half-width battle-mode cards.
+ROW 3: Narrow left feature plus wide right feature on desktop (1 + 3 columns); stacks responsively.
+ROW 4: One full-width Salmon Run feature.
+ROW 5: Desktop 1 + 2 + 1 layout. CSS order is deliberately changed at tablet and mobile breakpoints.
+ROW 6: Unique flexible row with six tips, wrapping across desktop/tablet/mobile.
+RESPONSIVE DESIGN: CSS media queries at 850px and 560px adjust column sizing and item order.
+ASSETS: Custom original abstract ink SVGs stored locally in images/. Reference screenshots are preserved in assets/.

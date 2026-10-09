@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A fan-made Splatoon 3 field guide and responsive Flexbox layout project.">
+  <title>Splatnet Field Guide | Splatoon 3 Fan Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Splatnet Field Guide home"><span class="brand-mark">✦</span> SPLATNET <span>FIELD GUIDE</span></a>
+    <nav aria-label="Main navigation"><a href="#weapons">Weapons</a><a href="#modes">Modes</a><a href="#loadout">Loadout</a></nav>
+  </header>
+  <main class="wrapper">
+    <section class="intro">
+      <p class="eyebrow">INKOPOLIS • FIELD NOTES 03</p>
+      <h1>STAY FRESH.<br><span>STAY INKED.</span></h1>
+      <p>A fan-made field guide for the colorful chaos of Splatoon 3. Pick your kit, learn the map, and make every drop of ink count.</p>
+    </section>
+    <!-- row 1, 4 individual boxes -->
+    <section class="row row-one" id="weapons" aria-labelledby="weapons-heading">
+      <h2 class="row-heading" id="weapons-heading">01 / CHOOSE YOUR WEAPON</h2>
+      <article class="col-1 card weapon"><img src="images/shooter.svg" alt="Abstract lime and purple shooter weapon artwork"><h3>Shooters</h3><p>Versatile blasters for players who want a little of everything.</p><a href="#loadout">Explore your kit ↗</a></article>
+      <article class="col-1 card weapon"><img src="images/roller.svg" alt="Abstract orange and lime roller weapon artwork"><h3>Rollers</h3><p>Claim turf quickly and surprise opponents at close range.</p><a href="#loadout">Explore your kit ↗</a></article>
+      <article class="col-1 card weapon"><img src="images/charger.svg" alt="Abstract turquoise and purple charger weapon artwork"><h3>Chargers</h3><p>Hold a sightline, charge your shot, and support your squad.</p><a href="#loadout">Explore your kit ↗</a></article>
+      <article class="col-1 card weapon"><img src="images/splatling.svg" alt="Abstract purple and turquoise splatling weapon artwork"><h3>Splatlings</h3><p>Charge up a stream of ink and keep the opposing team moving.</p><a href="#loadout">Explore your kit ↗</a></article>
+    </section>
+    <!-- row 2, 2 boxes spanning 2 columns -->
+    <section class="row row-two" id="modes" aria-labelledby="modes-heading">
+      <h2 class="row-heading" id="modes-heading">02 / PICK A BATTLE MODE</h2>
+      <article class="col-2 card mode-card"><img src="images/turf.svg" alt="Colorful Turf War abstract ink artwork"><div><p class="eyebrow">CASUAL • TEAMWORK</p><h3>Turf War</h3><p>Cover as much of the stage as you can. Every patch of color helps your team take the lead.</p></div></article>
+      <article class="col-2 card mode-card"><img src="images/anarchy.svg" alt="Colorful Anarchy Battle abstract ink artwork"><div><p class="eyebrow">RANKED • OBJECTIVES</p><h3>Anarchy Battle</h3><p>Push the objective in modes like Splat Zones, Tower Control, Rainmaker, and Clam Blitz.</p></div></article>
+    </section>
+    <!-- row 3: narrow left column, wide right/content column -->
+    <section class="row row-three" aria-labelledby="stage-heading">
+      <article class="col-1 card stage-mini"><p class="eyebrow">FIELD NOTE 03</p><h2>READ THE STAGE.</h2><p>Look for high ground, safe routes, and places to refill your ink.</p><span class="sticker">MAP SMART</span></article>
+      <article class="col-3 card feature-card"><img src="images/stage.svg" alt="Abstract turquoise stage artwork with orange ink accents"><div class="feature-copy"><p class="eyebrow">STAGE SPOTLIGHT</p><h2 id="stage-heading">THE MAP IS YOUR CANVAS.</h2><p>Move with your team, ink escape routes, and use cover to turn a messy fight into a winning push.</p><a class="button-link" href="#tips">Read the field tips</a></div></article>
+    </section>
+    <!-- row 4: one column spanning full width -->
+    <section class="row row-four" aria-labelledby="salmon-heading">
+      <article class="col-4 card salmon-card"><img src="images/salmon.svg" alt="Abstract orange and lime Salmon Run artwork"><div><p class="eyebrow">CO-OP SHIFT • GRIZZCO</p><h2 id="salmon-heading">SALMON RUN: CLOCK IN.</h2><p>Work together to collect Golden Eggs, handle incoming waves, and get your crew safely to the end of the shift.</p><a class="button-link" href="#tips">Get shift-ready</a></div><span class="big-number">04</span></article>
+    </section>
+    <!-- row 5, 1-2-1 individual boxes; CSS order changes on smaller screens -->
+    <section class="row row-five" id="loadout" aria-labelledby="loadout-heading">
+      <h2 class="row-heading" id="loadout-heading">05 / BUILD YOUR LOADOUT</h2>
+      <article class="col-1 card loadout-item loadout-weapon"><img src="images/loadout.svg" alt="Abstract purple and lime loadout artwork"><h3>01. Weapon</h3><p>Pick a weapon that matches your preferred range and pace.</p></article>
+      <article class="col-2 card loadout-item loadout-gear"><img src="images/gear.svg" alt="Abstract turquoise and purple gear ability artwork"><h3>02. Gear abilities</h3><p>Customize your gear for mobility, ink efficiency, or faster recovery. Experiment until it feels right.</p></article>
+      <article class="col-1 card loadout-item loadout-special"><img src="images/special.svg" alt="Abstract orange and turquoise special weapon artwork"><h3>03. Special</h3><p>Use your special at the right moment to create an opening for your team.</p></article>
+    </section>
+    <!-- row 6: unique row with six flexible checklist items -->
+    <section class="row row-six" id="tips" aria-labelledby="tips-heading">
+      <div class="tips-intro"><p class="eyebrow">QUICK CHECKLIST</p><h2 id="tips-heading">SIX WAYS TO<br>STAY FRESH.</h2><p>Little habits that can make a big difference.</p></div>
+      <article class="tip"><span>01</span><h3>Ink your route</h3><p>Keep escape paths and shortcuts covered.</p></article>
+      <article class="tip"><span>02</span><h3>Watch the map</h3><p>Check where your team needs help.</p></article>
+      <article class="tip"><span>03</span><h3>Swim to move</h3><p>Use ink to reposition and refill.</p></article>
+      <article class="tip"><span>04</span><h3>Play your role</h3><p>Support your team's plan.</p></article>
+      <article class="tip"><span>05</span><h3>Use your special</h3><p>Build it, then use it with purpose.</p></article>
+      <article class="tip"><span>06</span><h3>Stay together</h3><p>Teamwork can turn the tide.</p></article>
+    </section>
+  </main>
+  <footer><span>SPLATNET FIELD GUIDE</span><span>Unofficial fan-made project • Not affiliated with Nintendo</span></footer>
+</body>
+</html>
