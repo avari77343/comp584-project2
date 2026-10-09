@@ -19,7 +19,7 @@ Open `index.html` in a browser. All custom artwork is stored locally. The styles
 4. Under Build and deployment, choose **Deploy from a branch**, select `main` and `/(root)`, then save.
 5. Wait for GitHub Pages to publish the site. Copy the published URL into the Canvas submission and add it here:
 
-**GitHub Pages URL:** _Paste your published URL here._
+**GitHub Pages URL:**https://avari77343.github.io/comp584-project2/
 
 ## Flexbox requirements
 - Rows 1 and 2 show four cards and two half-width cards.
